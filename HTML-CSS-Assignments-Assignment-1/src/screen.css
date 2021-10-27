@@ -1,6 +1,29 @@
-/* Our CSS file. */
-
-
 .container, .content {
-width: 100%;
-}
+    width: 100%;
+  }
+  
+  .align-top{
+    vertical-align: top;
+  }
+  .align-center {
+    vertical-align: middle !important;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  
+  
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; 
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
